@@ -1,0 +1,186 @@
+{
+  "about": [
+    "Hello! I'm Lynn, a software engineer passionate about building innovative human experiences and exploring the intersectionality between technology and art. I am a UCSD graduate with a strong interest in machine learning, computer vision, and computer graphics. Currently, I am an engineer developing 8th Wall's AR based 3D game engine, and previously, I have worked at UCSD's HXI lab creating human interactive experiences for healthcare systems. I have also made a couple games for game jams and tinkered with robots, apps, and other random systems.",
+    "In my free time, I enjoy taking on challenges, piecing together puzzles (literally), and playing games (mostly RPGs). I have a keen interest in learning about local plants and ecological conservation through gardening and contributing to iNaturalist. I also like taking up many hobbies and crafts including drawing, knitting, crocheting, photography, and glassblowing.",
+    "This website was built with React, TypeScript, and Tailwind CSS. Source code is available on my GitHub."
+  ],
+  "experiences": [
+    {
+      "companyName": "Niantic Spatial Inc.",
+      "roleTitle": "Software Engineer",
+      "startDate": "Sep 2023",
+      "endDate": "Present",
+      "descriptionPoints": [
+        "Architected and integrated face, world, and image target tracking and VPS tools with a 3D rendered interactable simulator for the award-winning 8th Wall WebAR multiplatform game engine used by a quarter million developers worldwide",
+        "Configured computer vision based wrist tracking end-to-end implementation ML model into a custom built XR engine",
+        "Prototyped object tracking to create AR interactive experienced based on 3D objects reconstructed with photogrammetry",
+        "Reduced by half the memory load of AR features into smaller developer loadable WASM components",
+        "Designed and built the backend pipeline of the audio system for game engine natively supported across multiple platforms",
+        "Empowered the team by leading interviews, reviewing code, and mentoring interns to ship production-ready code"
+      ],
+      "languagesTech": [
+        "C++",
+        "React/TypeScript",
+        "WASM",
+        "TensorFlow",
+        "WebGL",
+        "OpenGL"
+      ],
+      "linkOut": null
+    },
+    {
+      "companyName": "UCSD HXI Research Lab",
+      "roleTitle": "HXI Software Developer",
+      "startDate": "Apr 2022",
+      "endDate": "Mar 2023 ",
+      "descriptionPoints": [
+        "Projected a 3D point cloud hologram from a Kinect camera streamed to a Hololens AR space",
+        "Stitched together 3 Kinect camera feeds from filtering RGB-D data and calibrating intrinsics with ChArUco boards",
+        "Iterated on designs by adding interactable frontend UI to AR medical devices to suit the needs of medical clients"
+      ],
+      "languagesTech": [
+        "C#",
+        "Unity",
+        "Python",
+        "OpenCV"
+      ],
+      "linkOut": null
+    },
+    {
+      "companyName": "Niantic Inc.",
+      "roleTitle": "Software Engineer Intern",
+      "startDate": "Jun 2022",
+      "endDate": "Sep 2022",
+      "descriptionPoints": [
+        "Incorporated ML multiclass semantic segmentation into 8th Wall’s WebAR platform’s computer vision pipeline",
+        "Optimized ML inference from ∼200ms to ∼60ms per frame on the web displayed in ∼60fps for mobile devices",
+        "Collaborated with teams across the board to discuss on the design and implementation of semantics in an AR engine"
+      ],
+      "languagesTech": [
+        "C++",
+        "TypeScript",
+        "TensorFlow",
+        "WASM",
+        "WebGL"
+      ],
+      "linkOut": null
+    },
+    {
+      "companyName": "8th Wall",
+      "roleTitle": "Software Engineer Intern",
+      "startDate": "Jun 2021",
+      "endDate": "Sep 2021",
+      "descriptionPoints": [
+        "Wrote training and tflite conversion scripts in tensorflow for DL monocular depth estimation models based on PyDNET",
+        "Streamlined the training process for ML depth models from data collection to evaluation with 3D point cloud visualization"
+      ],
+      "languagesTech": [
+        "C++",
+        "TypeScript",
+        "TensorFlow",
+        "WASM",
+        "WebGL"
+      ],
+      "linkOut": null
+    },
+    {
+      "companyName": "UCSD CSE Department",
+      "roleTitle": "Undergraduate Researcher",
+      "startDate": "Sep 2020",
+      "endDate": "Jun 2021",
+      "descriptionPoints": [
+        "Enhanced the Optical Character Recognition (OCR) model Ocular through text line extraction for historical documents",
+        "Trained and evaluated ML line extraction models such as dhSegment for historical printed documents",
+        "Built scripts to augment data and create a pipeline to train a CNN that scored the quality of baselines"
+      ],
+      "languagesTech": [
+        "Python",
+        "PyTorch",
+        "OpenCV"
+      ]
+    },
+    {
+      "companyName": "NVIDIA",
+      "roleTitle": "Embedded Systems Intern",
+      "startDate": "Jun 2017",
+      "endDate": "Aug 2017",
+      "descriptionPoints": [
+        "Trained an AI remote-controlled race-car to autonomously navigate and identify people in the building",
+        "Modified Jetson TX2 Ubuntu Linux kernel to support an external USB camera and LiDAR sensor for computer vision tasks"
+      ],
+      "languagesTech": [
+        "Python",
+        "C++",
+        "OpenCV",
+        "TensorFlow",
+        "Linux"
+      ],
+      "linkOut": "https://github.com/NVIDIA-AI-IOT/Formula1Epoch"
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "Computer Rendering Ray Tracer",
+      "descriptionPoints": [
+        "Wrote a ray tracer utlizing Monte Carlo Integration, optimized with bounding volume acceleration structure",
+        "Implemented depth of field on top of path tracing and next-event estimation for high quality rendering",
+        "Supported glass models by calculating the Fresnel refraction using Schlick’s approximation"
+      ],
+      "languagesTech": [
+        "C++"
+      ],
+      "linkOut": null
+    },
+    {
+      "projectName": "Exploding Kitchen Recipe App",
+      "descriptionPoints": [
+        "Lead a team of 10 students through an agile development process to build a CRUD web recipe app stored by spiciness",
+        "Connected the database management backend of the app to the frontend UI with user experience in mind"
+      ],
+      "languagesTech": [
+        "NodeJS",
+        "HTML/CSS",
+        "IndexDB"
+      ],
+      "linkOut": "https://exploding-kitchen.netlify.app/"
+    },
+    {
+      "projectName": "Fiora",
+      "descriptionPoints": [
+        "Discord bot used by 3 servers of 125+ people for automated administration",
+        "Designed an inventory system to generate random images from Imgur albums in a moderated list",
+        "Integrated external media management system and music player"
+      ],
+      "languagesTech": [
+        "NodeJS"
+      ],
+      "linkOut": null
+    },
+    {
+      "projectName": "Colors of the Deep",
+      "descriptionPoints": [
+        "Developed a 2D fishing game for the itch.io One Week Game Jam",
+        "Wrote the story about a fish society that fell apart due to pollution",
+        "Implemented inventory frontend UI tracking, level switching, and audio adjustments"
+      ],
+      "languagesTech": [
+        "C#",
+        "Unity"
+      ],
+      "linkOut": "https://nemosphilos.itch.io/colorsofthedeep"
+    },
+    {
+      "projectName": "Thalassa",
+      "descriptionPoints": [
+        "Programmed a 2D sidescroller for the itch.io My First Game Jam in two weeks",
+        "Devised the story and character sprites for a mermaid navigating through a maze and collecting seashells",
+        "Added game mechanics for character movements, animation cutscenes, score counter, and frontend UI"
+      ],
+      "languagesTech": [
+        "Python",
+        "Godot"
+      ],
+      "linkOut": "https://gadaursan.itch.io/thalassa"
+    }
+  ]
+}
